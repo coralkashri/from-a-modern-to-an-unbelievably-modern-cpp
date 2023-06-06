@@ -1027,7 +1027,7 @@
                         } else {
                             std::cout << "The value " << value << " doesn't exist in container\n";
                         }
-                        container.eplace_back(value + 1);
+                        container.emplace_back(value + 1);
                         // `it` might be invalid now in certain types of containers (like std::vector)
                     }
 					</script></code></pre>
@@ -1940,6 +1940,9 @@
 						<pre class="fragment" data-id="code-animation-1"><code class="hljs cpp" data-trim data-line-numbers=""><script type="text/template">
 						std::cout << vec[1, 2]; // ??
 						</script></code></pre>
+						<pre class="fragment" data-id="code-animation-1"><code class="hljs cpp" data-trim data-line-numbers=""><script type="text/template">
+						std::cout << vec[(1, 2)]; // C++20 onwards
+						</script></code></pre>
 					</section>
 					<section>
 						<pre><code class="hljs cpp" data-trim data-line-numbers=""><script type="text/template">
@@ -1956,20 +1959,21 @@
 					</section>
 					<section>
 						<pre><code class="hljs cpp" data-trim data-line-numbers=""><script type="text/template">
-						class container {
-						public:
-							int operator()(int idx1, int idx2) {
-								return vec[idx1][idx2];
-							}
+						class matrix {
+						  public:
+						  	int operator()(int idx1, int idx2) {
+						  		return vec[idx1 * ncol + idx2];
+						  	}
 
-						private:
-							std::vector<std::vector<int>> vec;
+						  private:
+						  	std::vector<int> vec;
+						  	size_t nrow, ncol;
 						};
 
 						{
-							container c;
+							matrix m;
 							/* ... */
-							std::cout << c(1, 2); // ??
+							std::cout << m(1, 2); // ??
 						}
 						</script></code></pre>
 					</section>
@@ -1979,19 +1983,20 @@
                     <h2 data-id="code-title">operator[] with multiple parameters (C++23)</h2>
                     <pre><code class="hljs cpp" data-trim data-line-numbers=""><script type="text/template">
 					class container {
-					public:
-						int operator[](int idx1, int idx2) {
-							return vec[idx1][idx2];
-						}
+						public:
+							int operator[](int idx1, int idx2) {
+								return vec[idx1 * ncol + idx2];
+							}
 
-					private:
-						std::vector<std::vector<int>> vec;
+						private:
+							std::vector<int> vec;
+							size_t nrow, ncol;
 					};
 
 					{
-						container c;
+						matrix m;
 						/* ... */
-						std::cout << c[1, 2]; // !!
+						std::cout << m[1, 2]; // !!
 					}
 					</script></code></pre>
                 </section>
@@ -2025,7 +2030,7 @@
                     | :--------------------------: | :-----------------------: | :------------------------------: |
                     | ![](twitter-logo.png#center) |        @koralkashri       |         @The_Whole_Daisy         |
                     |                              |    coralkashri@gmail.com  |            cpp@dsh.fyi           |
-                    | ![](linkedin.png#center)     |        Coral Kashri       |       Daisy Sophia Hollman       |
+                    | ![](linkedin.png#center)     |        Coral Kashri       |       (Not really on LinkedIn)       |
                 </section>
             </div>
 		</div>
