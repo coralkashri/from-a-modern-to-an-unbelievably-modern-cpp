@@ -1,1 +1,13 @@
 remote_theme: hydecorp/hydejack@v9
+accent_color: rgb(79,177,186)
+author:
+  name:  Coral Kashri
+  email: coralkashri@gmail.com
+  about: |
+    Senior C++ developer
+    Writer of C++ Senioreas blog
+  social:
+    twitter: koralkashri
+    github:  coralkashri
+    linkedin: coral-kashri-330b41162
+    reddit: CoralKashri
