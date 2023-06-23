@@ -7,7 +7,6 @@
 <!--  <a href="https://github.com/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp "Go to GitHub repo"">
     <img src="https://img.shields.io/static/v1?label=coralkashri&message=from-a-modern-to-an-unbelievably-modern-cpp&color=blue&logo=github" />
   </a> -->
-  <a href="https://github.com/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp "Go to GitHub repo"">
-    <img style="width: 120px; height: 30px" src="https://img.shields.io/github/stars/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp?style=social" />
-  </a>
+  
+  [<img style="width: 120px; height: 30px" src="https://img.shields.io/github/stars/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp?style=social" />](https://github.com/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp)
 </p>
