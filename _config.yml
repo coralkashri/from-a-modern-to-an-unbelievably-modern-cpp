@@ -1,3 +1,5 @@
+markdown: kramdown
+
 remote_theme: hydecorp/hydejack
 
 lang:                  en
