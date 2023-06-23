@@ -3,4 +3,4 @@
 [From Modern to Unbelievably Modern C++ talk slides](from-a-modern-to-an-unbelievably-modern-cpp.html)- 1 hour talk<br>
 [Fold Expressions Terrible Mistake talk slides](fold-expressions-terrible-mistake.html) - 5 miknutes lightning talk<be>
 
-[![stars - from-a-modern-to-an-unbelievably-modern-cpp](https://img.shields.io/github/stars/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp?style=social)](https://github.com/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp)
+[![stars - from-a-modern-to-an-unbelievably-modern-cpp](https://img.shields.io/github/stars/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp?style=social)](https://github.com/coralkashri/from-a-modern-to-an-unbelievably-modern-cpp){:height="50%" width="50%"}
