@@ -1,4 +1,4 @@
-remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack
 accent_color: rgb(79,177,186)
 author:
   name:  Coral Kashri
