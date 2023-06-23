@@ -1,5 +1,10 @@
 remote_theme: hydecorp/hydejack
+
+lang:                  en
+title:                 CoreC++ 2023 - Coral Kashri
+
 accent_color: rgb(79,177,186)
+
 author:
   name:  Coral Kashri
   email: coralkashri@gmail.com
