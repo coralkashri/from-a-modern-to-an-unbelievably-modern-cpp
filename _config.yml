@@ -7,6 +7,16 @@ title:                 CoreC++ 2023 - Coral Kashri
 
 accent_color: rgb(79,177,186)
 
+menu:
+  - title:             About
+    url:               https://coralkashri.github.io/coralkashri/
+  - title:             C++ Senioreas Articles List
+    url:               https://coralkashri.github.io/Cpp-Senioreas-All-Articles/
+  - title:             CoreC++ 2023 Talks' slides
+    url:               https://coralkashri.github.io/from-a-modern-to-an-unbelievably-modern-cpp/
+  - title:             C++ Senioreas Blog
+    url:               https://cppsenioreas.wordpress.com
+
 author:
   name:  Coral Kashri
   email: coralkashri@gmail.com
