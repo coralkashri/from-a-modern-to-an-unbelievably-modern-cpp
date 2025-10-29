@@ -11,9 +11,13 @@ menu:
   - title:             About
     url:               https://coralkashri.github.io/coralkashri/
   - title:             C++ Senioreas Articles List
-    url:               https://coralkashri.github.io/Cpp-Senioreas-All-Articles/
+    url:               https://coralkashri.github.io/coralkashri/blog/Cpp-Senioreas-All-Articles/
+  - title:             DevTo Articles List
+    url:               https://coralkashri.github.io/coralkashri/blog/Cpp-Senioreas-All-Articles/DevTo-Posts
   - title:             CoreC++ 2023 Talks' slides
-    url:               https://coralkashri.github.io/from-a-modern-to-an-unbelievably-modern-cpp/
+    url:               https://coralkashri.github.io/coralkashri/talks/from-a-modern-to-an-unbelievably-modern-cpp/
+  - title:             CoreC++ 2025 Talk's slides
+    url:               https://coralkashri.github.io/coralkashri/talks/who-is-afraid-of-the-big-bad-template/
   - title:             C++ Senioreas Blog
     url:               https://cppsenioreas.wordpress.com
 
@@ -22,9 +26,15 @@ author:
   email: coralkashri@gmail.com
   about: |
     Senior C++ developer
-    Writer of C++ Senioreas blog
+    C++ Senioreas blog author
   social:
-    twitter: koralkashri
+    # twitter: koralkashri
     github:  coralkashri
-    # linkedin: coral-kashri-330b41162
+    email: coralkashri@gmail.com
+    # rss: https://cppsenioreas.wordpress.com/feed/
+    linkedin: coral-kashri-330b41162
     # reddit: CoralKashri
+
+hydejack:
+  # Set to `true` if you don't want to show an icon indicating external links
+  no_mark_external:    true
